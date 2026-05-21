@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoMapa</title>
+
+    <link rel="icon" href="./assets/icons/mudas-de-plantas.svg">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#inicio">🌱 Eco<span>Mapa</span></a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title-menu" href="#inicio">Início</a></li>
+            <li><a class="title-menu" href="#sobre">Quem somos</a></li>
+            <li><a class="title-menu" href="#projeto">Sobre o projeto</a></li>
+            <li>
+              <a class="title-menu" href="#conhecerprojeto"
+                >Conhecer o projeto</a
+              >
+            </li>
+          </ul>
+        </div>
+        <ion-icon class="toggle icon-menu" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-close" name="close-outline"></ion-icon>
+        <a class="button" href="https://rques.github.io/ecomapa" target="_blank"
+          >Visitar o projeto</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio">
+        <div class="container">
+          <h2 class="title">
+            Auxiliando a população de Sorocaba no descarte consciente de lixo.
+          </h2>
+          <div class="icone">
+            <img
+              src="./assets/icons/splash.svg"
+              alt="Um splash de tinta verde"
+            />
+            <img
+              src="./assets/icons/recycle.svg"
+              alt="Símbolo de reciclagem verde"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section" id="sobre">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="./assets/images/bg-campus2.jpg"
+              alt="Imagem área Campus Centro Universitário FACENS"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Quem somos</h2>
+            <p>
+              Somos uma equipe de desenvolvedores formada por 5 pessoas do
+              Centro Universitário FACENS. Somos focados em desenvolver soluções
+              para nossos sistemas, inspirados pela capacidade de inovar cada
+              vez mais no mercado.
+            </p>
+            <br />
+            <p>
+              Quando houve a necessidade em criar um App para auxiliar a
+              população no descarte correto de lixo, vimos que o tema do projeto
+              se encaixava com nosso objetivo: Um App inovador que ajude a
+              população.
+            </p>
+            <br />
+            <p>
+              Este foi um projeto desenvolvido para a disciplina de UPX-1 do 1º
+              Semestre, no curso de Análise e Desenvolvimento de Sistemas.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="projeto">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Sobre o projeto</h2>
+            <p class="subtitle">
+              Visando o bem-estar do meio ambiente e de todos os moradores de
+              Sorocaba, o projeto EcoMapa disponibiliza uma plataforma
+              interativa que permite o descarte de lixo em seu local adequado,
+              promovendo o Objetivo de Desenvolvimento Sustentável nº 12, criado
+              pela ONU como forma de melhorar o mundo em que vivemos.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <img src="./assets/icons/recycle-bin.svg" alt="" />
+              <h3 class="title">EcoPontos de Coleta de Lixo</h3>
+              <p>
+                Uma página completa com os principais pontos de coleta de lixo
+                na cidade de Sorocaba.
+              </p>
+            </div>
+            <div class="card">
+              <img src="./assets/icons/educacao.svg" alt="" />
+              <h3 class="title">Quiz educativo</h3>
+              <p>
+                Uma área onde é possível aprender jogando! Um quiz que ensina a
+                descartar lixo da forma correta.S
+              </p>
+            </div>
+            <div class="card">
+              <img src="./assets/icons/video-chamada.svg" alt="" />
+              <h3 class="title">Plataforma de vídeos educativos</h3>
+              <p>
+                Uma aba dedicada no aprendizado com vídeo educativos ensinando a
+                reaproveitar o lixo antes de descartá-lo!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="conhecerprojeto">
+        <div class="container grid">
+          <h2 class="title">Conhecer o projeto de perto</h2>
+          <img
+            src="./assets/images/home-ecomapa.png"
+            alt="Prévia da página inicial do EcoMapa"
+          />
+          <a
+            class="button"
+            href="https://rques.github.io/ecomapa"
+            target="_blank"
+            >Visitar o projeto</a
+          >
+        </div>
+      </section>
+      <footer>
+        <a class="logo" href="#inicio">🌱 Eco<span>Mapa</span></a>
+        <p class="copyright">© 2026 EcoMapa. Todos os direitos reservados.</p>
+      </footer>
+    </main>
+    <a href="#inicio" class="voltar-ao-topo"><ion-icon name="arrow-up-outline"></ion-icon></a>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./script.js"></script>
+</html>
