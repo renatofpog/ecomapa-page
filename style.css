@@ -375,19 +375,19 @@ nav.show div.icon-close {
 }
 
 /*====  SECTION CONHECER O PROJETO ============================ */
-#conheceroprojeto {
+#conhecerprojeto {
   background-color: var(--fundo-2);
   text-align: center;
 }
 
-#conheceroprojeto .title {
+#conhecerprojeto .title {
   color: var(--primaria);
   font-size: 1.5rem;
   white-space: nowrap;
   margin-bottom: 1.5rem;
 }
 
-#conheceroprojeto img {
+#conhecerprojeto img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
@@ -395,9 +395,10 @@ nav.show div.icon-close {
   margin-bottom: 2rem;
 }
 
-#conheceroprojeto .button {
+#conhecerprojeto .button {
   display: inline-flex;
   visibility: visible;
+  opacity: 1;
   margin: 0 auto;
   justify-content: center;
 }
@@ -571,23 +572,11 @@ footer .copyright {
     padding-right: 3rem;
   }
 
-  #conhecerprojeto {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: var(--primaria);
-  }
-  
-  #conhecerprojeto img {
-    margin-bottom: 1rem;
+  #conhecerprojeto .title {
+    font-size: 3rem;
   }
 
-  #conhecerprojeto .button {
-    display: inline-flex;
-    visibility: visible;
-    height: 3.125rem;
-    align-items: center;
-    max-width: fit-content;
-    margin: 0 auto;
+  #conhecerprojeto img {
+    margin-bottom: 1rem;
   }
 }
